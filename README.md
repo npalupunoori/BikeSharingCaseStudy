@@ -4,11 +4,11 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Inital observations](#INITIAL-OBSERVATION)
+* [Conclusions](#CONCLUSIONS)
+* [Suggestions](#SUGGESTIONS)
+* [Contact](#Contact)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
 =========================================
@@ -39,32 +39,40 @@ day.csv have the following fields:
     - cnt: count of total rental bikes including both casual and registered
 
 =========================================
+## INITIAL OBSERVATION
+    • Holiday has very low impact on register customers but has a big effect on casual customers. As a result, there is some impact on overall demand.
+    • Even though working day does not have impact on overall demand, there is impact on registered and casual customers independently.
+    • During summer and winter there is no effect on demand, mostly due to casual customers.
+    • January and July there is demand change from registered customers no demand change from casual customers
+    • In March and October there is demand change for casual customers but no effect on overall demand.
+    • In November there is demand change form registered customers which is affecting overall demand.
+    • There is change in demand on Saturday from causal customers that is affecting overall demand.
+    • There is change in demand on Wednesday from registered customers, this is not affecting overall demand.
 
+## CONCLUSIONS
+    • With no other elements effecting the demand, there is more demand in casual customers then the registered customers.
+    • There is a positive demand increase in bikes for both registered and casual customers when it gets warmer.
+        * For every 2 units increase in temperature there is 1 unit increase in demand.
+    • Demand for bike from casual customers tend to increase in summer. Increase in demand is very significant.
+    • Winter has more increase in demand then summer, all the demand increase is from registered customers.
+    • There is good increase in demand form registered customers in 2019, there is almost 25% increase in demand
+    • On windy days there is obvious drop in demand from all customers.
+    • There is loss of customers in snowy and cloudy days.
+        * There is drop in demand from registered customers, Casual customers don’t have much effect on demand during this season.
+    • Working day has opposite effect on demand from registered and casual customers, drop in demand from casual customers is compensated by demand from registered customers.
+    • Humidity as huge effect on casual customer’s demand. Casual customers like to use bike’s when the weather is better.
+    • During Sunday’s there is uptick in demand from casual customers.
 
-## Conclusions
+## SUGGESTIONS
+    • Customer service team and supply team need be ready to handle demand increase in warmer days.
+    • Marketing team need to focus on getting more casual customers in summer and converting them to register customers, so they continue to become more regular users of bike and keep the demand up in winter also.
+    • In general, people are getting more health concussions this might contribute to increase in demand year on year.
+    • On working days looks like register customers are using bike sharing for commute to work. So, demand for bikes in residential area might increase during daytime and increase in demand in industrial area during evenings.
+        * Marketing team need to focus on having some deals to get more casual customer to use during the evenings, like happy hour.
+        * Loss of demand from casual customers is negating the demand increase from registered customers.
+        * It is important to get more casual customers on working days.
+    • To handle the drop in demand in windy days, company need to think to upgrade to aerodynamic bikes and advertise it accourdingly.
 
-    - With no change in any parameter there is a uptick in casual coustmers.
-    - Temperature has most positive effect on the all coustomers, Even in sub category of REgistered and Casual coustomers. 
-        * There might be more demand in day's where temperature is hotter.
-    - Windspead has a negative effect, Which makes sense coustomers might not be liking to ride bikes when it is very windy.
-        * One way to get more coustomers is get aerodymic bikes which might negate for the windspeed.
-    - Summer has very little effect on over all coustomers.
-        * There is no change in summer effect.
-        * There is little up tick in summer effect.
-        * We can also observe, there is up tick in registered coustomers in winters.
-        * Casual coustomers tend to not ride in winter.
-            * Over all we can observe that there is no uptick in summer, but trend can registered coustomers continue to ride in winter also. So effort needs to put in to get more registered coustomers in summer, Which lead to more coustomers in winter.
-        * Snow has a decremental effect on coustomers, We can plan for low demand in winter.
-        * Mist and cloud also has a decremental effect, One of the things to improve and reduce the effect of mist can be to get soloar light bikes so the vissibility gets better in mist conditions.
-    - Year to year there is up tick in coustomers, there is good increment in registered cousomters. Need to run some schemas for casual cosutomers to attrack them to ride bikes. 
-        * Attarack more casual coustomers and convert them to registered coustomers.
-        * There will be small uptick in demand for registered bikes in sepetember. 
-            - We can anticipate the up tick in september by having a look at registered coustomers.
-    - Working day has a negative effect on casual coustomers, May be run some discounts or speal deals for casual riders on working day's
-        * Rush hour deals for casual coustomers.
-    - There will drop in demand on humid days, we can use these days for bike servicing. Looking at the models above, Shows that humidity has negative effect on all coustomers.
-    - October has a up tick in casual rides, this might be due to start of fall, customers want to enjoy the fall colors.
-    - Casual works tend to ride more on sunday's. To attract more coustmers on sunday, run some deals for the casual deals.
 
 
 ## Contact
